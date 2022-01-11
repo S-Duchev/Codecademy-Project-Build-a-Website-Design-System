@@ -1,94 +1,159 @@
+  body {
+      margin: 0 10%;
+      background-color: rgb(232, 251, 253);
+      font-family: Poppins, sans-serif;
+  }
+
+  .block {
+      border: 2px solid rgba(117, 202, 198, 0.829);
+      padding: 10px;
+      margin-bottom: 10px;
+
+  }
+
+  /* Nav Bar + Small animation  */
+  #navbar h1 {
+      color: white;
+      font-style: bold;
+      text-align: center;
+      font-size: 26px;
+  }
+
+  #navbar {
+      background: rgb(58, 108, 141);
+      border-radius: 5px;
+  }
+
+  #navbar ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+  }
+
+  #navbar li a {
+      text-decoration: none;
+      color: white;
+      padding-right: 3em;
+      position: relative;
+      transition: all ease-in-out 200ms;
+  }
+
+  #navbar li a::after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 0.4em;
+      width: 0%;
+      background-color: #1aaef3;
+      bottom: 20px;
+      transition: all ease-in-out 150ms;
+  }
+  #navbar a:hover {
+    color:#1591ca;
+}
+  #navbar li a:hover::after {
+      width: 50%;
+  }
+
+  /* Colors */
+
+  .color-green {
+      background-color: #15bd15;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      margin: 2px 0px;
+      border-radius: 25px;
+
+  }
+
+  .color-red {
+      background-color: #bb2319;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+  }
+
+  .color-orange {
+      background-color: #e4750d;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+  }
+
+  .color-black {
+      background-color: #141313;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+
+  }
+
+  .color-blue {
+      background-color: #134a9c;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+  }
+
+  .color-beige {
+      background-color: #dac5b7;
+      display: inline-block;
+      width: 32%;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+  }
+
+  /* Fonts */
+
+  .font-label {
+      text-decoration: underline;
+      font-size: 110%;
+
+  }
+
+  .font-bold {
+      font-weight: 700;
+  }
+
+  .font-italic {
+      font-style: italic;
+  }
+
+  .font-raleway {
+      font-family: Raleway, sans-serif;
+      width: 33%;
+      display: inline-block;
+  }
+
+  .font-montserrat {
+      font-family: Montserrat, sans-serif;
+      width: 33%;
+      display: inline-block;
+  }
+
+  .font-poppins {
+      font-family: Poppins, sans-serif;
+      width: 33%;
+      display: inline-block;
+  }
+
+  /* Text Styles */
+
+  #text-styles {
+      font-size: 26px;
+  }
   
-body {
-    margin: 0 10%;
-    background-color: rgb(232, 251, 253);
-    font-family: Poppins, sans-serif;
-}
-.block {
-    border: 2px solid rgba(117, 202, 198, 0.829);
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-/* CSS for Colors */
-
-.color-green {
-    background-color: #15bd15;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-    margin: 2px 0px;
-    /* margin-bottom: 2px 0px;  */
-
-}
-.color-red {
-    background-color: #bb2319;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-}
-.color-orange {
-    background-color: #e4750d;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-}
-.color-black {
-    background-color: #141313;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-   
-}
-.color-blue {
-    background-color: #134a9c;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-}
-.color-beige {
-    background-color: #dac5b7;
-    display: inline-block;
-    width: 32%;
-    color: white;
-    text-align: center;
-}
-
-/* CSS for Fonts */
-
-.font-label {
-    text-decoration: underline;
-    font-size: 110%;
-    
-}
-
-.font-bold {
-    font-weight: 700;
-}
-
-.font-italic {
-    font-style: italic;
-}
-
-.font-raleway {
-    font-family: Raleway, sans-serif;
-    width: 33%;
-    display: inline-block;
-}
-
-.font-ubuntu {
-    font-family: Ubuntu, sans-serif;
-    width: 33%;
-    display: inline-block;
-}
-
-.font-poppins {
-    font-family: Poppins, sans-serif;
-    width: 33%;
-    display: inline-block;
+    #pixelSize {
+    text-decoration-line: underline;
 }
