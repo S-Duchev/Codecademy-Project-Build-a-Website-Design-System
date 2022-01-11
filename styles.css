@@ -1,10 +1,11 @@
   
 body {
     margin: 0 10%;
-    
+    background-color: rgb(155, 197, 221);
+    font-family: Mulish, sans-serif;
 }
 .block {
-    border: 2px solid gray;
+    border: 2px solid rgba(38, 173, 99, 0.829);
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -60,9 +61,14 @@ body {
 
 /* CSS for Fonts */
 
+/* .fonts {
+    display: inline-block;
+    
+} */
 .font-label {
     text-decoration: underline;
     font-size: 110%;
+    
 }
 
 .font-bold {
@@ -75,4 +81,18 @@ body {
 
 .font-raleway {
     font-family: Raleway, sans-serif;
+    width: 33%;
+    display: inline-block;
+}
+
+.font-ubuntu {
+    font-family: Ubuntu, sans-serif;
+    width: 33%;
+    display: inline-block;
+}
+
+.font-poppins {
+    font-family: Poppins, sans-serif;
+    width: 33%;
+    display: inline-block;
 }
