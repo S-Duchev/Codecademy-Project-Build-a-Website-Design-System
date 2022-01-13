@@ -11,7 +11,6 @@
       background-color: #a7dfdaee;
 
   }
-
   h2 {
       font-weight: 500;
       font-size: 24px;
@@ -125,6 +124,18 @@
       text-align: center;
       border-radius: 25px;
   }
+  /* Text Styles */
+    .subheading {
+        border-bottom: 2px solid black;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        width: 14%;
+    }
+
+    #h1-style {
+        font-family: Raleway, sans-serif;
+        font-size: 40px;
+    }
 
   /* Fonts */
 
